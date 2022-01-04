@@ -139,6 +139,22 @@ a {
     padding: 40px;
 }
 
+.item-block .item-heading {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.item-block h5 {
+    color: darkseagreen;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.item-block .item-info {
+    font-size: 16px;
+    line-height: 30x;
+}
+
 #full-stack {
     border-left: 7px solid;
     border-image: linear-gradient(#a64ce2, #78b5ee);
@@ -149,4 +165,9 @@ a {
     border-left: 7px solid;
     border-image: linear-gradient(#f75bef, #4871e0);
     border-image-slice: 1;
+}
+
+.footer-text {
+    text-align: center;
+    color: darkseagreen;
 }
