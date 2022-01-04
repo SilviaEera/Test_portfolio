@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background: #fff;
+    background-image: url("./images/top-banner.png");
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 100px;
+}
+
+.text-block .main-heading {
+    font-size: 60px;
+}
+
+.text-block .main-heading .block {
+    display: block;
+    line-height: 100px;
+}
+
+.text-block .main-heading .colored-text {
+    color: orange;
+}
+
+.text-block .sub-heading {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: darkseagreen;
+}
+
+.text-block .info {
+    font-size: 18px;
+    line-height: 35px;
+    color: slategray;
+    padding-bottom: 40px;
+    padding-right: 180px;
+}
+
+.hire-btn {
+    background-image: linear-gradient(45deg, orange, coral);
+    padding: 10px 20px;
+    color: #fff;
+    transition: all linear 0.5s;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+}
+
+.hire-btn:hover {
+    color: orange;
+    border: 1px solid orange;
+    background-image: none;
+}
+
+.image-block img {
+    width: 100%;
+    padding-top: 100px;
+}
+
+.about {
+    background: #fff;
+    background-image: url("./images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.about .image-block {
+    padding-right: 100px;
+}
+
+.about-text-block .about-heading {
+    font-size: 50px;
+    padding-bottom: 20px;
+    padding-top: 100px;
+}
+
+.about-text-block .about-sub-heading {
+    font-size: 40px;
+    padding-bottom: 30px;
+    color: darkseagreen;
+}
+
+.about-text-block .about-info {
+    font-size: 18px;
+    padding-bottom: 40px;
+    line-height: 40px;
+    padding-right: 266px;
+}
