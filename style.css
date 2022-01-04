@@ -134,8 +134,8 @@ a {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     width: 40%;
-    margin-right: 5%;
-    margin-left: 5%;
+    /* margin-right: 5%;
+    margin-left: 5%; */
     padding: 40px;
 }
 
@@ -170,4 +170,5 @@ a {
 .footer-text {
     text-align: center;
     color: darkseagreen;
+    padding-bottom: 50px;
 }
